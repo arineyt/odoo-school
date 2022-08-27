@@ -9,7 +9,7 @@
         <field name="comment"><![CDATA[<span>-- <br/>
     This is demo partner.</span>
 ]]></field>
-        <field name="active" eval="False"/>
+        <field name="active" eval="True"/>
     </record>
     
 

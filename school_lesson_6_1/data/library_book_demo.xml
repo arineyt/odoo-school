@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <record id="book_marusia_churai" model="library.book">
+        <field name="name">Маруся Чурай</field>
+        <field name="category_id" ref="school_lesson_6_1.category_historical_novel"/>
+    </record>
+
+    <record id="book_poklyk_predkiv" model="library.book">
+        <field name="name">Поклик предків</field>
+        <field name="category_id" ref="school_lesson_6_1.category_adventure_fiction"/>
+    </record>
+
+    <record id="book_twenty_thousand_lions_under_water" model="library.book">
+        <field name="name">Двадцять тисяч льє під водою</field>
+        <field name="category_id" ref="school_lesson_6_1.category_adventure_fiction"/>
+    </record>
+
+    <record id="book_poklyk_predkiv" model="library.book">
+        <field name="name">Поклик пращурiв</field>
+    </record>
+
+    <delete id="school_lesson_6_1.book_twenty_thousand_lions_under_water" model="library.book"/>
+
+</odoo>

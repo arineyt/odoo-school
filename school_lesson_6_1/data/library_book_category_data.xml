@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="category_historical_novel" model="library.book.category" forcecreate="True">
+        <field name="name">Історична новела</field>
+    </record>
+
+    <record id="category_adventure_fiction" model="library.book.category" forcecreate="True">
+        <field name="name">Пригодницька фантастика</field>
+    </record>
+
+    <record id="category_fantasy" model="library.book.category" forcecreate="True">
+        <field name="name">Фентезі</field>
+    </record>
+
+</odoo>
